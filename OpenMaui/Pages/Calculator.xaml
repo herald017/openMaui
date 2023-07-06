@@ -10,5 +10,15 @@
                 <Label Text="" FontSize="Medium" TextColor="White"/>
             </HorizontalStackLayout>
         </Border>
+        <Border BackgroundColor="Red" HeightRequest="70">
+            <HorizontalStackLayout VerticalOptions="Center">
+                <Label Text="" FontSize="Medium" TextColor="White"/>
+            </HorizontalStackLayout>
+        </Border>
+        <Border BackgroundColor="Yellow" HeightRequest="70">
+            <HorizontalStackLayout VerticalOptions="Center">
+                <Label Text="" FontSize="Medium" TextColor="White"/>
+            </HorizontalStackLayout>
+        </Border>
     </VerticalStackLayout>
 </ContentPage>
