@@ -3,10 +3,10 @@ name: .NET MAUI CI/CD
 on:
   push:
     branches:
-      - uat-ci-cd
+      - develop-cicd
   pull_request:
     branches:
-      - uat-ci-cd
+      - develop-cicd
 
 jobs:
   build:
@@ -33,7 +33,7 @@ jobs:
         run: dotnet restore
         
       - name: Build Project
-        run: dotnet build OpenMaui.csproj/OpenMaui.csproj -c Release -f net7.0-android | --no-restore
+        run: dotnet build --no-restore
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.1.2
