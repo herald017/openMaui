@@ -34,7 +34,10 @@ jobs:
         
       - name: Build Project
         run: dotnet build --no-restore
-
+            
+      - name: Publish Project
+        run: dotnet publish -c:Release -f:net7.0-android --output $(build.artifactstagingdirectory) /p:AndroidPackageFormat=apk /p:EnableLLVM=false /p:RunAOTCompilation=true /p:AndroidEnableProfiledAot=false
+        
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.1.2
         with:
@@ -42,6 +45,3 @@ jobs:
           path: 
             ./**/*.aab
             ./**/*.apk
-            
-      - name: Publish Project
-        run: dotnet publish
