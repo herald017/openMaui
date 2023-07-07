@@ -55,3 +55,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = OpenMaui.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/H.reuta/source/repos/openMaui/OpenMaui/Views/NavigationBar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = OpenMaui.Views.NavigationBar.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\NavigationBar.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\NavigationBar.xaml
