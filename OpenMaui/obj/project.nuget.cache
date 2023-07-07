@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "16D/E5iAU7iWmSJwRewx5Wqs80fmD4bLbCFA7CczDHAA4j1VbISCPLAOxQsQkVVrLZHM7aLvBkM63oOotva8+A==",
+  "dgSpecHash": "6gpUHG+9qAIIIQZ4ZF2zEaGTjlnsG6ggfzSSKm5ZFvdiHpBZ0dqOYF9OTwCW8klRi0j+rexnb1EizHtMS9i8VQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\H.reuta\\source\\repos\\OpenMaui\\OpenMaui\\OpenMaui\\OpenMaui.csproj",
+  "projectFilePath": "C:\\Users\\H.reuta\\source\\repos\\openMaui\\OpenMaui\\OpenMaui.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\H.reuta\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\H.reuta\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
