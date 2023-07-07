@@ -1,0 +1,1 @@
+C:\Users\H.reuta\Source\Repos\openMaui\OpenMaui\OpenMaui.csproj;x64

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\H.reuta\\source\\repos\\OpenMaui\\OpenMaui\\OpenMaui\\OpenMaui.csproj": {}
+    "C:\\Users\\H.reuta\\Source\\Repos\\openMaui\\OpenMaui\\OpenMaui.csproj": {}
   },
   "projects": {
-    "C:\\Users\\H.reuta\\source\\repos\\OpenMaui\\OpenMaui\\OpenMaui\\OpenMaui.csproj": {
+    "C:\\Users\\H.reuta\\Source\\Repos\\openMaui\\OpenMaui\\OpenMaui.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\H.reuta\\source\\repos\\OpenMaui\\OpenMaui\\OpenMaui\\OpenMaui.csproj",
+        "projectUniqueName": "C:\\Users\\H.reuta\\Source\\Repos\\openMaui\\OpenMaui\\OpenMaui.csproj",
         "projectName": "OpenMaui",
-        "projectPath": "C:\\Users\\H.reuta\\source\\repos\\OpenMaui\\OpenMaui\\OpenMaui\\OpenMaui.csproj",
+        "projectPath": "C:\\Users\\H.reuta\\Source\\Repos\\openMaui\\OpenMaui\\OpenMaui.csproj",
         "packagesPath": "C:\\Users\\H.reuta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\H.reuta\\source\\repos\\OpenMaui\\OpenMaui\\OpenMaui\\obj\\",
+        "outputPath": "C:\\Users\\H.reuta\\Source\\Repos\\openMaui\\OpenMaui\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -63,6 +63,10 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -181,6 +185,10 @@
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -244,6 +252,10 @@
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -308,6 +320,10 @@
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -371,6 +387,10 @@
               "version": "[7.0.7, 7.0.7]"
             },
             {
+              "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
+              "version": "[7.0.7, 7.0.7]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
               "version": "[7.0.7, 7.0.7]"
             },
@@ -417,6 +437,9 @@
           "#import": []
         },
         "iossimulator-x64": {
+          "#import": []
+        },
+        "maccatalyst-arm64": {
           "#import": []
         },
         "maccatalyst-x64": {

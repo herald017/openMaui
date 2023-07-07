@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:controls="clr-namespace:OpenMaui.Views"
              x:Class="OpenMaui.Pages.Calculator"
              Shell.NavBarIsVisible="False"
              Title="Calculator">
+    <ContentPage.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="{AppThemeBinding Light={StaticResource StatusBarLight}, Dark={StaticResource StatusBarDark}}" StatusBarStyle="{AppThemeBinding Light=DarkContent, Dark=LightContent}" />
+    </ContentPage.Behaviors>
+    <ContentPage.Resources>
+        
+    </ContentPage.Resources>
     <VerticalStackLayout>
-        <Border BackgroundColor="Blue" HeightRequest="70">
-            <HorizontalStackLayout VerticalOptions="Center">
-                <Label Text="" FontSize="Medium" TextColor="White"/>
-            </HorizontalStackLayout>
-        </Border>
-        <Border BackgroundColor="Red" HeightRequest="70">
+        <controls:NavigationBar></controls:NavigationBar>
+        <!--<Border BackgroundColor="Red" HeightRequest="70">
             <HorizontalStackLayout VerticalOptions="Center">
                 <Label Text="" FontSize="Medium" TextColor="White"/>
             </HorizontalStackLayout>
@@ -19,6 +23,6 @@
             <HorizontalStackLayout VerticalOptions="Center">
                 <Label Text="" FontSize="Medium" TextColor="White"/>
             </HorizontalStackLayout>
-        </Border>
+        </Border>-->
     </VerticalStackLayout>
 </ContentPage>
