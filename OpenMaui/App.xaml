@@ -5,17 +5,25 @@
              x:Class="OpenMaui.App">
     <Application.Resources>
         <ResourceDictionary>
+            <Color x:Key="NavBarDark">#2f2f2f</Color>
+            <Color x:Key="StatusBarLight">#e8e8e8</Color>
+            <Color x:Key="StatusBarDark">#464646</Color>
+            <Style ApplyToDerivedTypes="True" TargetType="ContentPage">
+                <Setter Property="Padding" Value="-5"/>
+            </Style>
+            <Style x:Key="NavBarStyle" TargetType="Border">
+                <Setter Property="HeightRequest" Value="70"/>
+                <Setter Property="BackgroundColor" Value="{StaticResource NavBarDark}"/>
+            </Style>
+
+
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
             </ResourceDictionary.MergedDictionaries>
-            <Style x:Key="NavBar" TargetType="Border">
-                <Setter Property="HeightRequest" Value="150"/>
-                <Setter Property="Margin" Value="0"/>
-            </Style>
-            <Style x:Key="ContentPageStyle" ApplyToDerivedTypes="True" TargetType="VerticalStackLayout">
-                <Setter Property="Padding" Value="-1"/>
-            </Style>
+
+
+
         </ResourceDictionary>
 
     </Application.Resources>

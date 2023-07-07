@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\H.reuta\\source\\repos\\OpenMaui\\OpenMaui\\OpenMaui\\OpenMaui.csproj": {}
+    "C:\\Users\\H.reuta\\Source\\Repos\\openMaui\\OpenMaui\\OpenMaui.csproj": {}
   },
   "projects": {
-    "C:\\Users\\H.reuta\\source\\repos\\OpenMaui\\OpenMaui\\OpenMaui\\OpenMaui.csproj": {
+    "C:\\Users\\H.reuta\\Source\\Repos\\openMaui\\OpenMaui\\OpenMaui.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\H.reuta\\source\\repos\\OpenMaui\\OpenMaui\\OpenMaui\\OpenMaui.csproj",
+        "projectUniqueName": "C:\\Users\\H.reuta\\Source\\Repos\\openMaui\\OpenMaui\\OpenMaui.csproj",
         "projectName": "OpenMaui",
-        "projectPath": "C:\\Users\\H.reuta\\source\\repos\\OpenMaui\\OpenMaui\\OpenMaui\\OpenMaui.csproj",
+        "projectPath": "C:\\Users\\H.reuta\\Source\\Repos\\openMaui\\OpenMaui\\OpenMaui.csproj",
         "packagesPath": "C:\\Users\\H.reuta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\H.reuta\\source\\repos\\OpenMaui\\OpenMaui\\OpenMaui\\obj\\",
+        "outputPath": "C:\\Users\\H.reuta\\Source\\Repos\\openMaui\\OpenMaui\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
